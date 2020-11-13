@@ -1,6 +1,7 @@
+#include "construction.h"
 #include <stdlib.h>
 #include <stdio.h>
-#include "construction.h"
+#include <string.h>
 
 void printsp(struct Pepper *p) {
     printf("%s has a Scoville score of %d\n", p->name, p->scoville);

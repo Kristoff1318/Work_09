@@ -2,6 +2,7 @@
 #include <stdio.h>
 #include "construction.h"
 #include <time.h>
+
 int main() {
     srand(time(NULL));
     struct Pepper *p;
